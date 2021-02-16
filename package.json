@@ -1,0 +1,15 @@
+{
+  "name": "photography-sergio",
+  "version": "1.0.0",
+  "description": "Site photography on bootstrap ",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "bootstrap",
+    "photography"
+  ],
+  "author": "Sergei Lysenko",
+  "license": "ISC"
+}
