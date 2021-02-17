@@ -1,0 +1,49 @@
+.content-block {
+  width: 100%;
+  height: 250px;
+  background-color: #101010;
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 30%;
+    left: 50%;
+    margin-left: -25px;
+    background-color: black;
+  }
+
+  &__title {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Nextart';
+  }
+
+  &__img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 40px auto;
+  }
+
+  &__bg-img {
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    background-image: url("./img/logo.png");
+    background-color: black;
+  }
+
+  &__text-1 {
+    font-family: 'Rz-regular';
+    font-size: 40px;
+  }
+
+  &__text-2 {
+    font-family: 'Brushwell';
+    font-size: 40px;
+  }
+}
